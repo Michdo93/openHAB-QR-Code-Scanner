@@ -1,0 +1,59 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/language_category_en"
+        android:key="language_category">
+
+        <ListPreference
+            android:key="language_preference"
+            android:title="@string/language_preference_title_en"
+            android:dialogTitle="@string/language_preference_summary_en"
+            android:summary="@string/language_preference_summary_en"
+            android:entries="@array/language_entries_en"
+            android:entryValues="@array/language_values"
+            android:defaultValue="@string/default_language_value" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/connection_category_en"
+        android:key="connection_category">
+
+        <ListPreference
+            android:key="protocol_preference"
+            android:title="@string/protocol_preference_title_en"
+            android:dialogTitle="@string/protocol_preference_summary_en"
+            android:summary="@string/protocol_preference_summary_en"
+            android:entries="@array/protocol_entries"
+            android:entryValues="@array/protocol_values"
+            android:defaultValue="@string/default_protocol_value" />
+
+        <EditTextPreference
+            android:key="ip_address_preference"
+            android:title="@string/ip_address_preference_title_en"
+            android:summary="@string/ip_address_preference_summary_en"
+            android:dialogTitle="@string/ip_address_preference_dialog_title_en"
+            android:defaultValue="@string/default_ip_address" />
+
+        <EditTextPreference
+            android:key="port_preference"
+            android:title="@string/port_preference_title_en"
+            android:summary="@string/port_preference_summary_en"
+            android:dialogTitle="@string/port_preference_dialog_title_en"
+            android:defaultValue="@string/default_port" />
+
+        <EditTextPreference
+            android:key="username_preference"
+            android:title="@string/username_preference_title_en"
+            android:summary="@string/username_preference_summary_en"
+            android:dialogTitle="@string/username_preference_dialog_title_en"
+            android:defaultValue="@string/default_username" />
+
+        <EditTextPreference
+            android:key="password_preference"
+            android:title="@string/password_preference_title_en"
+            android:summary="@string/password_preference_summary_en"
+            android:dialogTitle="@string/password_preference_dialog_title_en"
+            android:defaultValue="@string/default_password" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

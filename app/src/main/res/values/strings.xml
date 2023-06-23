@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">openHAB QR Code Scanner</string>
+    <string name="scan_barcode_button" translatable="false">Scan Barcode</string>
+    <string name="barcode_result" translatable="false">Barcode detected.\n%1$s</string>
+    <string name="error_scanner_cancelled" translatable="false">Code scanner is cancelled.</string>
+    <string name="error_camera_permission_not_granted" translatable="false">Camera permission is not granted.</string>
+    <string name="error_app_name_unavailable" translatable="false">App name is not set.</string>
+    <string name="error_default_message" translatable="false">Failed to scan code: %1$s</string>
+    <string name="settings_icon_description">Settings</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string name="settings_icon_description_de">Einstellungen öffnen/schließen</string>
+    <string name="settings_icon_description_en">Open/close settings menu</string>
+    <string name="language_category_de">Sprache</string>
+    <string name="language_preference_title_de">Sprache auswählen</string>
+    <string name="language_preference_summary_de">Wählen Sie die Sprache aus</string>
+    <string name="language_category_en">Language</string>
+    <string name="language_preference_title_en">Select language</string>
+    <string name="language_preference_summary_en">Select the language</string>
+    <string name="default_language_value">en</string>
+    <string name="connection_category_de">Verbindungseinstellungen</string>
+    <string name="protocol_preference_title_de">Protokoll auswählen</string>
+    <string name="protocol_preference_summary_de">Wählen Sie das Protokoll aus</string>
+    <string name="connection_category_en">Connection settings</string>
+    <string name="protocol_preference_title_en">Select protocol</string>
+    <string name="protocol_preference_summary_en">Select the protocol</string>
+    <string name="default_protocol_value">http</string>
+    <string name="ip_address_preference_title_de">IP-Adresse</string>
+    <string name="ip_address_preference_summary_de">Geben Sie die IP-Adresse ein</string>
+    <string name="ip_address_preference_dialog_title_de">IP-Adresse eingeben</string>
+    <string name="ip_address_preference_title_en">IP address</string>
+    <string name="ip_address_preference_summary_en">Enter the IP address</string>
+    <string name="ip_address_preference_dialog_title_en">Enter IP address</string>
+    <string name="default_ip_address">192.168.0.1</string>
+    <string name="port_preference_title_de">Port</string>
+    <string name="port_preference_summary_de">Geben Sie den Port ein</string>
+    <string name="port_preference_dialog_title_de">Port eingeben</string>
+    <string name="port_preference_title_en">Port</string>
+    <string name="port_preference_summary_en">Enter the port</string>
+    <string name="port_preference_dialog_title_en">Enter port</string>
+    <string name="default_port">8080</string>
+    <string name="language_english_de">Englisch</string>
+    <string name="language_german_de">Deutsch</string>
+    <string name="language_english_en">English</string>
+    <string name="language_german_en">German</string>
+    <string name="settings_activity_title_text_de">Einstellungen</string>
+    <string name="settings_activity_title_text_en">Settings</string>
+    <string-array name="language_entries">
+        <item>English</item>
+        <item>German</item>
+    </string-array>
+    <string-array name="language_entry_values">
+        <item>en</item>
+        <item>de</item>
+    </string-array>
+    <string name="error_title_de">Fehler</string>
+    <string name="error_title_en">Error</string>
+    <string name="dialog_ok">OK</string>
+    <string name="json_parse_error_de">Fehler: JSON konnte nicht geparst werden.</string>
+    <string name="json_parse_error_en">Error: Failed to parse JSON.</string>
+    <string name="username_preference_title_de">Benutzername</string>
+    <string name="username_preference_summary_de">Geben Sie den Benutzernamen ein</string>
+    <string name="username_preference_dialog_title_de">Benutzernamen eingeben</string>
+    <string name="username_preference_title_en">Username</string>
+    <string name="username_preference_summary_en">Enter the username</string>
+    <string name="username_preference_dialog_title_en">Enter username</string>
+    <string name="default_username">openhab</string>
+    <string name="password_preference_title_de">Passwort</string>
+    <string name="password_preference_summary_de">Geben Sie das Passwort ein</string>
+    <string name="password_preference_dialog_title_de">Passwort eingeben</string>
+    <string name="password_preference_title_en">Password</string>
+    <string name="password_preference_summary_en">Enter the password</string>
+    <string name="password_preference_dialog_title_en">Enter password</string>
+    <string name="default_password">habopen</string>
+    <string name="url_not_reachable_de">Die URL ist nicht erreichbar. HTTP-Statuscode: </string>
+    <string name="url_not_reachable_en">The URL is not reachable. HTTP status code: </string>
+    <string name="establishing_connection_error_de">Fehler beim Verbindungsaufbau zur URL: </string>
+    <string name="establishing_connection_error_en">Error establishing a connection to the URL: </string>
+</resources>
